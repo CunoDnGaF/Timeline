@@ -1,0 +1,116 @@
+body {
+	background-color: rgb(194, 195, 253);
+	font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-container {
+    background-color: rgb(233, 226, 124);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 90vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+  }
+
+  .timeline-body {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .post-form {
+    height: 80px;
+    width: 60%;
+  }
+
+  .post-field {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: large;
+    margin-top: 1%;
+  }
+
+  .post {
+    background-color: rgb(194, 195, 253);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    min-height: 20%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .post-header {
+    text-align: right;
+  }
+
+  .post-footer {
+    text-align: left;
+  }
+
+  .coordinates-modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(250, 132, 132);
+    padding: 1%;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+  }
+
+  .modal-warning {
+    margin-bottom: 10px;
+  }
+
+  .modal-field {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: large;
+    margin-bottom: 10px;
+  }
+
+  .modal-buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .modal-button {
+    width: 20%;
+    margin-left: 1%;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .unactive {
+    display: none;
+  }

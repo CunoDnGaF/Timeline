@@ -1,2 +1,2 @@
 [Github Pages](https://cunodngaf.github.io/Timeline/)
-![CI](https://github.com/CunoDnGaF/Timeline/actions/workflows/web.yml/badge.svg)
+[![Build status](https://ci.appveyor.com/api/projects/status/nxjesc7awcrn2pn1/branch/main?svg=true)](https://ci.appveyor.com/project/CunoDnGaF/timeline/branch/main)

@@ -16,11 +16,11 @@ function coordinatesValidator(input) {
   if (resultArr.length !== 2) {
     return 'Некорректные координаты';
   }
-  const latitude = parseFloat(resultArr[0].trim());
-  const longitude = parseFloat(resultArr[1].trim());
-  if (Number.isNaN(latitude) || Number.isNaN(longitude)) {
+  if (isNaN(resultArr[0]) || isNaN(resultArr[1])) {
     return 'Некорректные значения широты и/или долготы';
   }
+  const latitude = parseFloat(resultArr[0].trim());
+  const longitude = parseFloat(resultArr[1].trim());
   return {
     latitude,
     longitude
